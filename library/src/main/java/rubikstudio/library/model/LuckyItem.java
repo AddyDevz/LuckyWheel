@@ -1,13 +1,11 @@
 package rubikstudio.library.model;
 
-/**
- * Created by kiennguyen on 11/5/16.
- */
+import android.graphics.Bitmap;
 
 public class LuckyItem {
     public String topText;
     public String secondaryText;
     public int secondaryTextOrientation;
-    public int icon;
+    public Bitmap icon;
     public int color;
 }
